@@ -37,7 +37,7 @@
     background-image: url("../img/logo.png");
     background-size: 120px 120px;
     background-repeat: no-repeat;
-    padding-left: 50px;
+    padding-left: 100px;
     -webkit-filter: drop-shadow(10px 10px 10px rgba (0,0,0,1));
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
 
