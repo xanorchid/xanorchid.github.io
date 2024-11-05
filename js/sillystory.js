@@ -8,7 +8,7 @@ function randomValueFromArray(array) {
 }
 
 // Storing the big long string of text
-const storyText = "It was 94 fahrenheit outside, so :insertX: went for a walk. When they got to :insertY:, they stared in horror for a few moments, then :insertZ:. Bob saw the whole thing, but was not surprised — :insertX: weighs 300 pounds, and it was a hot day.";
+const storyText = "It was a spooky evening, with fog lingering and owls hooting, so :insertX: went for a jog. When they got to :insertY:, they stared in horror for a few moments, then :insertZ:. Bob saw the whole thing, but was not surprised — :insertX: is a werewolf, and there was a full moon";
 
 // Storing the first set of three strings in an array
 const insertX = [
