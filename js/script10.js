@@ -1,6 +1,4 @@
-// script10.js
 
-// Get references to the image and button elements
 const displayImage = document.getElementById('displayImage');
 const imageButton = document.getElementById('imageButton');
 
