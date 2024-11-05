@@ -12,23 +12,23 @@ const storyText = "It was 94 fahrenheit outside, so :insertX: went for a walk. W
 
 // Storing the first set of three strings in an array
 const insertX = [
-  "Willy the Goblin",
-  "Big Daddy",
-  "Father Christmas"
+  "Lexi the Clown",
+  "Queen Latifa",
+  "P Diddy"
 ];
 
 // Storing the second set of three strings in an array
 const insertY = [
-  "the soup kitchen",
-  "Disneyland",
-  "the White House"
+  "eldora",
+  "the moon",
+  "the sundown saloon"
 ];
 
 // Storing the third set of three strings in an array
 const insertZ = [
-  "spontaneously combusted",
-  "melted into a puddle on the sidewalk",
-  "turned into a slug and crawled away"
+  "lit up in flames",
+  "devoured his soul and did a flip",
+  "melted into a sea of blood"
 ];
 
 randomize.addEventListener('click', result);
