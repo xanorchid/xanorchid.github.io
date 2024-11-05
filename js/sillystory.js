@@ -20,7 +20,7 @@ const insertX = [
 // Storing the second set of three strings in an array
 const insertY = [
   "eldora",
-  "the moon",
+  "the edge of the cliff",
   "the sundown saloon"
 ];
 
