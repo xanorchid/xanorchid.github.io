@@ -1,0 +1,86 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #edb9e3;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #570763;
+}
+
+/* Full image section styles */
+.full-img {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.displayed-img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    transition: filter 0.3s ease; /* Smooth transition for filter changes */
+}
+
+/* Overlay styles */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0); /* Initially transparent */
+    transition: background-color 0.3s ease; /* Smooth transition for overlay */
+}
+
+/* Button styles */
+.gallery {
+    display: flex;            
+    flex-direction: column;  
+    align-items: center;    
+    justify-content: center;  
+    height: 100vh;         
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #a42ad4; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;        /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+}
+
+button:hover {
+    background-color: #4b105b;
+}
+
+
+/* Thumbnail bar styles */
+.thumb-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px 0;
+}
+
+.thumb-bar img {
+    width: 100px; /* Set a fixed width for thumbnails */
+    height: auto;
+    margin: 0px;
+    cursor: pointer;
+    border: 2px solid transparent; /* Add a transparent border */
+    transition: transform 0.2s ease; /* Smooth transition for border */
+}
+
+.thumb-bar img:hover {
+    transform: scale (1.1);
+    border-color: #ff00c3; /* Highlight border on hover */
+}
