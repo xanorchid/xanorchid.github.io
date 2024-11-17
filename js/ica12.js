@@ -32,3 +32,4 @@ document.getElementById('jokeButton').addEventListener('click', getJoke);
 
 // Fetch a joke on page load
 window.onload = getJoke;
+
